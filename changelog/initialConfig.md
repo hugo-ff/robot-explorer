@@ -1,5 +1,6 @@
 ### Added
 
+- lint-staged installed and script for prettier and eslint added
 - Prop-types installed
 - Styled-Components and related babel plugin installed for styling purposes
 - Webpack and some related plugins installed and their configs created for both prod and dev bundling.
