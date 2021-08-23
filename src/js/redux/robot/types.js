@@ -1,0 +1,4 @@
+export default {
+	SET_PLACEMENT: 'robot/SET_PLACEMENT',
+	TOGGLE_ON_OFF_ROBOT: 'robot/TOGGLE_ON_OFF_ROBOT',
+};

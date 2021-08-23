@@ -9,7 +9,7 @@
 		"plugin:json/recommended",
 		"plugin:prettier/recommended"
 	],
-	"plugins": ["react", "prettier", "jest", "testing-library", "jest-dom"],
+	"plugins": ["react", "prettier"],
 	"overrides": [
 		{
 			"files": ["**/__tests__/**/*.[jt]s?(x)", "**/?(*.)+(spec|test).[jt]s?(x)"],
