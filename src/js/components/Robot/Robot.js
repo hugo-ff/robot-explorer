@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import { number, string, shape, bool, func } from 'prop-types';
 import useInstructions from 'hooks/useInstructions';
 import { connect } from 'react-redux';
+import Lights from 'components/Lights';
 import { setPlacement } from '../../redux/robot/actions';
 
 const Robot = ({ placement, isOn, setNewPlacement }) => {
@@ -44,6 +45,7 @@ const Robot = ({ placement, isOn, setNewPlacement }) => {
 			<button type="button" onClick={redo}>
 				Rehacer movimiento
 			</button>
+			<Lights />
 		</div>
 	);
 };
